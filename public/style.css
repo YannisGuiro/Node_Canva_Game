@@ -1,0 +1,36 @@
+body
+{
+    overflow: hidden;
+}
+@font-face {
+    font-family : "Triakis";
+    src : url("./font/Triakis Regular Free Weight/Triakis Regular Free Weight/Opentype/TriakisFont-Regular.otf");
+}
+#canvas{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    border : 1px solid black;
+}
+
+#bg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    background-color: black;
+}
+
+#cv
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+p{
+    color:red;
+}
